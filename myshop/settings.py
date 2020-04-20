@@ -35,7 +35,6 @@ CART_SESSION_ID = 'cart'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
-
 import braintree
 BRAINTREE_CONF = braintree.Configuration(
     braintree.Environment.Sandbox,
