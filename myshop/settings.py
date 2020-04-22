@@ -37,9 +37,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Braintree settings
-BRAINTREE_MERCHANT_ID = 'zvyjmzs384ktqsvq' # Merchant ID
-BRAINTREE_PUBLIC_KEY = 'vf6qjn79jnjyssfw' # Public Key
-BRAINTREE_PRIVATE_KEY = '50d84621645c1ce0e981fcee867dfe21' # Private key
+BRAINTREE_MERCHANT_ID =  # Private key
 
 
 import braintree
