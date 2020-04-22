@@ -7,6 +7,7 @@ from shop.models import Product
 from coupons.models import Coupon
 
 
+
 class Order(models.Model):
     first_name = models.CharField(_('first name'), max_length=50)
     last_name = models.CharField(_('last name'), max_length=50)
